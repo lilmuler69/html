@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 - CSS3</title>
+    <script>
+        function updateTextInput(val){
+            document.getElementById('textInput').value = val;
+
+        }
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -40,7 +46,7 @@
                         <p> Semana <input type="week" name="Semana"></p>
                         <p>Fecha y Hora <input type="datetime-local" name="Fechayhora"></p>
                         <p>Numero <input type="number" name="Numero" step="2" min="10" max="30"></p>
-                        <p>Rango <input type="range" name="Rango" step="5" min="5" max="50"
+                        <p>Rango <input type="range" name="Rango" step="1" min="0" max="50"
                                     onchange="updateTextInput(this.value);"/>
                                     <input type="text" id="textInput" value="">
                             </p>
@@ -55,7 +61,7 @@
             <div class="cb"></div>
         </div>
        
-        <footer>&copy; Copyright xdxd</footer>
+        <footer>&copy; Made by Victor</footer>
     </div>
 </body>
 </html>
