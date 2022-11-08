@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background-color: rgb(110, 185, 185);
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(128, 175, 179);
+    
+}
+header {
+    background-image: url(../img/saul-goodman-better-call-saul.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 250%;
+    height: 150px;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(21, 0, 255);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 78%;
+    float: right;
+    padding: 0 1%;
+}
+
+#home {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 10px;
+   border: solid 2px rgb(99, 2, 255);
+   background-color: rgb(53, 164, 172);
+}
+nav ul li:hover {
+    color:  rgb(231, 235, 18);
+    background-color: rgb(218, 28, 28);
+
+}
+.txt-center {
+    text-align: center;
+}
+.tag {
+    color: rgb(216, 0, 245);
+    font-size: 20px;
+    font-weight: bold;
+}
+.txt-azul {
+    color: blue;
+}
+.caja {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(93, 93, 192);
+}
+.lisdef dt{
+    color: blue;
+
+}
+.listas{
+list-style: lower-roman;}
+ol.customimg li{
+    list-style-type: lower-greek;
+}
+ol.customimg li li {
+    list-style-image: url(../img/stfu.png);
+}
+ol.customimg li li li{
+    list-style-image: none;
+    list-style-type: upper-alpha;
+}
+ul.imgcus {
+    list-style-image: url(../img/pog.png);
+}
+ul.imgcus li li{
+    list-style-image: url(../img/emanem.png);
+}
+ul.imgcus li li li{
+    list-style-image: url(../img/ruby.jpg);
+}
+.lisdef li {
+    list-style: lower-roman;
+}
+table.theader{
+    background-color: rgb(255, 81, 0);
+}
+table.striped tr :nth-child(Odd){
+    background-color: #fbff00;
+}
+table.striped tr :nth-child(even){
+    background-color: aqua;
+}
+
+#tablas #thorario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 99%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.Lenguajedemarcas{
+    background-color: hsl(226, 92%, 47%);
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.encabezado{
+    background-color: #F0F0F0;
+    color: #008080;
+    margin: 0 auto;
+    width: 10;
+}
+.Programacion{
+    background-color: #fbff00;
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.ingles{
+    background-color: #80FF81;
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.FOL{
+    background-color: hsla(316, 34%, 35%, 0.699);
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.SISI{
+    background-color: #00ff40;
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.Entorno{
+    background-color: hsl(315, 40%, 53%);
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.base{
+    background-color: #05ffb8;
+    color: black;
+    margin: 0 auto;
+    width: 10;
+}
+.hora{
+    background-color: #F0F0F0;
+    color: #008080;
+    margin: 0 auto;
+    width: 10;
+    
+}
+video{
+    width: 100%;
+    display: block;
+    margin: 0 ;
+}
+.Messi{
+    font-family: Arial, Helvetica, sans-serif;
+}
